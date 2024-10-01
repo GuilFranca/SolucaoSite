@@ -383,12 +383,16 @@ li:hover > ul.submenu,
 
 footer{
   background-color: #2B2D80;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .container-footer{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 1250px;
 }
 
 .container-footer h4{
@@ -396,6 +400,7 @@ footer{
 }
 
 .container-footer ul{
+  padding-left: 0;
   list-style: none;
 }
 
