@@ -29,6 +29,13 @@ header img {
   background-color: #2B2D80;
 }
 
+.container-1250px{
+  width: 1250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 /* Navegação */
 .container-header nav ul {
   display: flex;
@@ -281,6 +288,10 @@ li:hover > ul.submenu,
   color: #333;
 }
 
+.container-cards .product .price{
+  margin-top: auto; /* Padroniza a posição do preço */
+}
+
 .container-cards .product .information button{
   margin-top: auto; /* Garante que o botão fique no final da área de informações */
   margin: 10px 0;
@@ -317,12 +328,16 @@ li:hover > ul.submenu,
 /* FinaL Slider card */
 
 
+
+
+
+
 /* Início Botão WPP */
 
 #btn-wpp {
   position: fixed;
   bottom: 40px; /* Distância do fundo */
-  right: 20px; /* Distância da direita */
+  right: 40px; /* Distância da direita */
   z-index: 5;
 }
 
